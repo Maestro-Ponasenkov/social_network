@@ -3,13 +3,10 @@ import React from 'react';
 const Profile = () => {
     return (
         <div className='content'>
-            <div>
-                <img src='https://i.imgur.com/NmzaCA9.jpg' alt='main-content'/>
-            </div>
-            <div>
+            <div className='avatar'>
                 <img className='avatar' src='https://i.imgur.com/OE5hM33.jpg' alt='avatar'/>
             </div>
-            <div>
+            <div className='posts'>
                 My posts
                 <div>
                     New post

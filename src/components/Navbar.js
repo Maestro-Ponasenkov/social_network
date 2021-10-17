@@ -15,7 +15,7 @@ const Navbar = () => {
             <div>
                 <a>Music</a>
             </div>
-            <div>
+            <div className='settings'>
                 <a>Settings</a>
             </div>
         </nav>
