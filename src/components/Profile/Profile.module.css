@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+.avatar_div {
+    padding: 10px;
+}
+
+.avatar {
+    width: 100px;
+}

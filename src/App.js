@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Profile from "./components/Profile";
-import HeaderImage from "./components/HeaderImage";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import HeaderImage from "./components/HeaderImage/HeaderImage";
 
 const App = () => {
     return (

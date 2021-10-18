@@ -1,0 +1,9 @@
+.headerImage {
+    grid-area: i;
+    padding: 10px;
+}
+
+.headerImage img {
+    width: 100%;
+    height: 100%;
+}

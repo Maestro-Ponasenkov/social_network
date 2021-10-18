@@ -1,8 +1,9 @@
 import React from 'react';
+import s from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <nav className='nav'>
+        <nav className={s.nav}>
             <div>
                 <a>Profile</a>
             </div>
@@ -15,7 +16,7 @@ const Navbar = () => {
             <div>
                 <a>Music</a>
             </div>
-            <div className='settings'>
+            <div className={s.settings}>
                 <a>Settings</a>
             </div>
         </nav>
