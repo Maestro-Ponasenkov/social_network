@@ -1,3 +1,16 @@
 .item {
+padding: 5px;
+}
 
+.profile_image
+{
+    width: 50px;
+}
+
+.like_dislike {
+    padding: 5px;
+}
+
+.like_dislike_image {
+    width: 20px;
 }
