@@ -13,11 +13,11 @@ const Post = (props) => {
                 <span>
                     <img src='https://i.imgur.com/3BWMVOy.png' alt='like' className={s.like_dislike_image}/>
                 </span>
-                {props.likecount}
+                {props.likesCounter}
                 <span>
                     <img src='https://i.imgur.com/8UCDIll.png' alt='like' className={s.like_dislike_image}/>
                 </span>
-                {props.dislikecount}
+                {props.dislikesCounter}
             </div>
         </div>
     )

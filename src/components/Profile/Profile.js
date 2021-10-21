@@ -1,14 +1,13 @@
 import React from 'react';
 import MyPosts from "./MyPosts/MyPosts";
 import s from './Profile.module.css';
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile = () => {
+const Profile = (props) => {
     return (
-        <div className={s.content}>
-            <div className={s.avatar_div}>
-                <img className={s.avatar} src='https://i.imgur.com/OE5hM33.jpg' alt='avatar'/>
-            </div>
-            <MyPosts />
+        <div>
+            <ProfileInfo />
+            <MyPosts posts={props.state.posts}/>
         </div>
     )
 }

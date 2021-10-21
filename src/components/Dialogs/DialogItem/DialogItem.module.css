@@ -1,0 +1,14 @@
+.dialog {
+
+}
+
+.dialog a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.dialog a.active {
+    font-size: larger;
+    font-weight: bolder;
+}
